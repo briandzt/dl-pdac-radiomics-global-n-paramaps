@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Model weights and exported model bundles
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tar
+checkpoints/
+weights/
+
+# nnUNet runtime data
+/nnUNet_raw/
+/nnUNet_preprocessed/
+/input_lowres/
+/input_fullres/
+/output_lowres/
+/output_fullres/
+workspace/nnUNet_raw/*
+workspace/nnUNet_preprocessed/*
+workspace/nnUNet_results/*
+workspace/test_example/input/*
+workspace/test_example/output/*
+!workspace/nnUNet_raw/.gitkeep
+!workspace/nnUNet_preprocessed/.gitkeep
+!workspace/nnUNet_results/.gitkeep
+!workspace/test_example/input/.gitkeep
+!workspace/test_example/output/.gitkeep
+
+# Generated medical image/radiomics outputs
+*.nii
+*.nii.gz
+*.mha
+*.nrrd
+*.npy
+*.npz
+
+# Logs and local outputs
+*.log
+log/
+outputs/
+results/
+tmp/
+tmp_*/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/

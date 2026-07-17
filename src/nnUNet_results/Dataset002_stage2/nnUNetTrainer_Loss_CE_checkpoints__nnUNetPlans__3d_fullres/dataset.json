@@ -1,0 +1,25 @@
+{
+    "channel_names": {
+        "0": "CT",
+        "1": "feat_log-sigma-4-0-mm-3D_glcm_Correlation",
+        "2": "feat_wavelet-LLH_glszm_SizeZoneNonUniformityNormalized",
+        "3": "feat_wavelet-HLL_ngtdm_Strength",
+        "4": "feat_wavelet-HHL_glcm_Correlation",
+        "5": "feat_wavelet-LLL_glcm_Imc1",
+        "6": "feat_wavelet-LLL_glcm_Imc2",
+        "7": "feat_lbp-2D_glrlm_LongRunEmphasis",
+        "8": "feat_lbp-2D_glrlm_ShortRunEmphasis"
+    },
+    "labels": {
+        "background": 0,
+        "tumor": 1,
+        "veins": 2,
+        "arteries": 3,
+        "pancreas": 4,
+        "pancreatic duct": 5,
+        "common bile duct": 6
+    },
+    "numTraining": 2223,
+    "file_ending": ".nii.gz",
+    "overwrite_image_reader_writer": "SimpleITKIO"
+}

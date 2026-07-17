@@ -1,0 +1,27 @@
+# This example shows how to use the waveletDirection parameter to only extract 
+# features from specific wavelet decompositions (in this case, only HHL)
+
+imageType:
+  Wavelet:
+    waveletDirection: ['HHL']  # Only extract features from HHL decomposition
+    wavelet: 'coif1'           # Optional: specify wavelet type (default is coif1)
+    level: 1                   # Optional: specify wavelet level (default is 1)
+
+featureClass:
+  # Specify which feature classes to compute
+  firstorder: []               # [] means all features in this class
+  glcm: []
+  # glrlm: []                  # Commented out means this class is disabled
+  # glszm: []
+  # gldm: []
+  # ngtdm: []
+  # shape: []
+
+setting:
+  # General settings
+  label: 1                     # Region of Interest label
+  binWidth: 25                 # Bin width for image discretization
+  # Additional settings can be uncommented as needed
+  # normalize: true
+  # resampledPixelSpacing: [1.0, 1.0, 1.0]  # [x, y, z] voxel spacing to resample to
+  # padDistance: 10            # Extra padding for wavelet filters 

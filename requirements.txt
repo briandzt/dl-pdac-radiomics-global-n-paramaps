@@ -1,0 +1,20 @@
+nibabel==5.2.1
+numpy==1.26.4
+picai_eval==1.4.9
+pillow==10.4.0
+pydicom==2.4.4
+scikit-image==0.24.0
+scikit-learn==1.5.2
+scipy==1.13.1
+SimpleITK==2.4.0
+evalutils==0.4.2
+click==8.1.7
+batchgenerators==0.25
+# Additional dependencies for custom packages
+torch>=2.0
+timm
+einops
+PyWavelets
+pykwalify
+six
+tqdm

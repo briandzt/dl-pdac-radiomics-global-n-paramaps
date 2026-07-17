@@ -1,0 +1,27 @@
+{
+    "features": [
+        "feat_log-sigma-4-0-mm-3D_glcm_Correlation",
+        "feat_wavelet-LLH_glszm_SizeZoneNonUniformityNormalized",
+        "feat_wavelet-HLL_ngtdm_Strength",
+        "feat_wavelet-HHL_glcm_Correlation",
+        "feat_wavelet-LLL_glcm_Imc1",
+        "feat_wavelet-LLL_glcm_Imc2",
+        "feat_lbp-2D_glrlm_LongRunEmphasis",
+        "feat_lbp-2D_glrlm_ShortRunEmphasis",
+        "feat_original_shape_Sphericity",
+        "feat_original_shape_SurfaceVolumeRatio"
+    ],
+    "settings": {
+        "voxelBased": true,
+        "padDistance": 10,
+        "dtype": "float32",
+        "device": "cuda:0",
+        "label": 1,
+        "target_spacing": [1.0, 1.0, 2.5],
+        "window_width": 400,
+        "window_level": 40,
+        "binWidth": 20,
+        "kernelRadius": 5,
+        "voxelBatch": 4000
+    }
+} 

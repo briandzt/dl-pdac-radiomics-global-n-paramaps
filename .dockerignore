@@ -1,0 +1,32 @@
+.git/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local outputs and runtime folders
+outputs/
+results/
+tmp/
+tmp_*/
+input_lowres/
+input_fullres/
+output_lowres/
+output_fullres/
+nnUNet_raw/
+nnUNet_preprocessed/
+
+# Large sample/test imaging data from vendored packages
+src/report-guided-annotation/tests/input/
+src/report-guided-annotation/tests/output/
+src/pyradiomics-3.1.0-Zengtian/data/
+*.nii
+*.nii.gz
+*.mha
+*.nrrd
+*.npy
+*.npz
+
+# Do not ignore *.pth here: local Docker builds may intentionally include
+# prepared checkpoint_best.pth files that remain git-ignored.
