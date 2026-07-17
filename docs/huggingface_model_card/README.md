@@ -130,15 +130,22 @@ This model repository does not include patient imaging data. It contains trained
 
 ## Citation
 
-Please cite the paper associated with <https://huggingface.co/papers/2602.17986>.
+Please cite the associated arXiv paper if you use this model repository, checkpoints, or reproduction workflow.
 
 ```bibtex
-@article{deng2026globalradiomicsparametricmaps,
-  title = {From Global Radiomics to Parametric Maps: A Unified Workflow Fusing Radiomics and Deep Learning for PDAC Detection},
-  year = {2026},
-  note = {Hugging Face Papers: https://huggingface.co/papers/2602.17986}
+@misc{deng2026globalradiomicsparametricmaps,
+  title         = {From Global Radiomics to Parametric Maps: A Unified Workflow Fusing Radiomics and Deep Learning for PDAC Detection},
+  author        = {Deng, Zengtian and He, Yimeng and Shi, Yu and Wang, Lixia and Qureshi, Touseef Ahmad and Huang, Xiuzhen and Li, Debiao},
+  year          = {2026},
+  eprint        = {2602.17986},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.IV},
+  doi           = {10.48550/arXiv.2602.17986},
+  url           = {https://arxiv.org/abs/2602.17986}
 }
 ```
+
+This workflow also uses [lyhyl/pytorchradiomics](https://github.com/lyhyl/pytorchradiomics) for PyTorch-based radiomics components; please acknowledge that project where appropriate.
 
 ## License
 

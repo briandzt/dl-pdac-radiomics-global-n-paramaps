@@ -203,6 +203,23 @@ The detection map stores voxel-level PDAC likelihood. The JSON stores the case-l
 - `process.py` is the canonical workflow; `main.py` and `src/process_local.py` are local convenience wrappers.
 - Full inference requires GPU-enabled PyTorch and nnU-Net dependencies.
 
+## Citation
+
+If you use this repository, model weights, or reproduction workflow, please cite the associated arXiv paper. A BibTeX copy is also available in [CITATION.bib](CITATION.bib).
+
+```bibtex
+@misc{deng2026globalradiomicsparametricmaps,
+  title         = {From Global Radiomics to Parametric Maps: A Unified Workflow Fusing Radiomics and Deep Learning for PDAC Detection},
+  author        = {Deng, Zengtian and He, Yimeng and Shi, Yu and Wang, Lixia and Qureshi, Touseef Ahmad and Huang, Xiuzhen and Li, Debiao},
+  year          = {2026},
+  eprint        = {2602.17986},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.IV},
+  doi           = {10.48550/arXiv.2602.17986},
+  url           = {https://arxiv.org/abs/2602.17986}
+}
+```
+
 ## Acknowledgement
 
-This workflow builds on nnU-Net, PyRadiomics, torch radiomics tooling, and report-guided annotation utilities. Please cite the original tools where appropriate.
+This workflow builds on nnU-Net, PyRadiomics, [lyhyl/pytorchradiomics](https://github.com/lyhyl/pytorchradiomics), and report-guided annotation utilities. Please cite or acknowledge the original tools where appropriate.

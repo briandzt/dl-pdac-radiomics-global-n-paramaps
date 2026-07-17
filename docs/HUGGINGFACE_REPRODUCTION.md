@@ -17,7 +17,7 @@ Use GitHub for:
 - Dockerfile and Python inference code
 - nnU-Net metadata files: `dataset.json`, `dataset_fingerprint.json`, `plans.json`
 - configuration files and helper scripts
-- documentation and citations
+- documentation and citations, including `CITATION.cff` and `CITATION.bib`
 
 Use Hugging Face for:
 
@@ -139,6 +139,7 @@ The model card at `briandzt/radiomics_nnUNet/README.md` should include:
 - output description: voxel-level PDAC detection map and case-level likelihood JSON
 - checkpoint layout and fold ensemble details
 - citation
+- acknowledgement of [lyhyl/pytorchradiomics](https://github.com/lyhyl/pytorchradiomics)
 - license and usage restrictions
 - data/privacy note explaining that no patient data are included
 

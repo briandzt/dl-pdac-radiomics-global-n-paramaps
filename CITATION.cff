@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated arXiv paper."
+title: "From Global Radiomics to Parametric Maps: A Unified Workflow Fusing Radiomics and Deep Learning for PDAC Detection"
+authors:
+  - family-names: Deng
+    given-names: Zengtian
+  - family-names: He
+    given-names: Yimeng
+  - family-names: Shi
+    given-names: Yu
+  - family-names: Wang
+    given-names: Lixia
+  - family-names: Qureshi
+    given-names: Touseef Ahmad
+  - family-names: Huang
+    given-names: Xiuzhen
+  - family-names: Li
+    given-names: Debiao
+year: 2026
+doi: 10.48550/arXiv.2602.17986
+url: "https://arxiv.org/abs/2602.17986"
+repository-code: "https://github.com/briandzt/dl-pdac-radiomics-global-n-paramaps"
+preferred-citation:
+  type: article
+  title: "From Global Radiomics to Parametric Maps: A Unified Workflow Fusing Radiomics and Deep Learning for PDAC Detection"
+  authors:
+    - family-names: Deng
+      given-names: Zengtian
+    - family-names: He
+      given-names: Yimeng
+    - family-names: Shi
+      given-names: Yu
+    - family-names: Wang
+      given-names: Lixia
+    - family-names: Qureshi
+      given-names: Touseef Ahmad
+    - family-names: Huang
+      given-names: Xiuzhen
+    - family-names: Li
+      given-names: Debiao
+  year: 2026
+  doi: 10.48550/arXiv.2602.17986
+  url: "https://arxiv.org/abs/2602.17986"
